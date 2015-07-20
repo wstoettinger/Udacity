@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  background-color: white;
+  color: #676857;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+}
+
+h2 {
+  color: #BCBBBB;
+  padding-left: 0.3em;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+h4 {
+
+}
+
+header {
+  padding: 1em 0.3em 1em 0.3em;
+  text-align: right;
+  border-bottom: 5px solid #BCBBBB;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+ font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  max-width: 1080px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
+
+
+
+/* Jane Doette: Roboto 100 */
+/* All: Oxygen 400 */

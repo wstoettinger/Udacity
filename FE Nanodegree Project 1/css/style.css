@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  color: #BCBBBB;
+  color: #bcbbbb;
   padding-left: 0.3em;
 }
 
@@ -30,13 +30,25 @@ h4 {
 }
 
 header {
-  padding: 1em 0.3em 1em 0.3em;
+  padding: 1em 8px 1em 8px;
   text-align: right;
-  border-bottom: 5px solid #BCBBBB;
+  border-bottom: 5px solid #bcbbbb;
+}
+
+footer {
+  font-size: 10px;
 }
 
 .logo {
   max-height: 100px;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-height: 150px;
+  }
 }
 
 .uppercase {
@@ -56,6 +68,25 @@ header {
   padding-top: 1em;
   padding-bottom: 1em;
   margin: 0 auto;
+}
+
+a:focus, a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+a {
+  color: #676857;
+  text-decoration: none;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #676857;
+}
+
+.nav {
+  float: right !important;
+  padding-bottom: 1em;
 }
 
 

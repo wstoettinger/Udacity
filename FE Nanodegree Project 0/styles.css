@@ -17,13 +17,24 @@ body {
   height: 100%;
 }
 
-header {
+header, footer {
   height: 25vw;
   max-height: 150px;
   width: 100%;
   background-color: #333;
   color: white;
 }
+
+footer {
+	max-height: 80px;
+}
+
+.footer-content {
+  padding-top: 2em;
+  vertical-align: center;
+  font-size: x-small;
+}
+
 
 .udacity-logo {
   max-height: 100%;
@@ -117,5 +128,5 @@ h1 {
 }
 
 .about-me {
-  padding: 1em;
+  padding: 1em;	
 }

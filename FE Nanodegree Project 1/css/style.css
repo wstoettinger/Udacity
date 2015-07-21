@@ -1,6 +1,6 @@
 body {
   font-family: "Oxygen", sans-serif; /* single quotes are used by Google Fonts, I didn't notice when copying */
-  font-weight: 400;
+  font-weight: 300;
   background-color: white;
   color: #676857;
   margin: 0;
@@ -20,7 +20,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
   letter-spacing: 2px;
 }
 
@@ -58,10 +58,15 @@ footer {
 }
 
 .content {
-  max-width: 1080px;
+  max-width: 1024px;
   padding-top: 1em; /* here a shorthand property would overwrite the padding-left and padding-right of the header element, that's why I didn't use it */
   padding-bottom: 1em;
   margin: 0 auto;
+}
+
+body>div.content {
+  margin-top: 40px;
+  padding-top: 0em;
 }
 
 a:focus,
@@ -82,7 +87,26 @@ a {
   background-color: #676857;
 }
 
-.nav {
-  float: right !important;
-  padding-bottom: 1em;
+.nav-container {
+  padding: 0.3em 0 0.3em 0;
+}
+
+nav h2 {
+  float: left;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 8px 0 0 6px;
+}
+
+.navbar-header {
+  float: right;
+}
+  
+@media (min-width: 768px) {
+  #navbar-collapse {
+    float: right;
+  }
+  body>div.content {
+    margin-top: 50px;
+  }
 }

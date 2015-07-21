@@ -65,7 +65,11 @@
     <div class="content">
       <div class="row">
         <div class="col col-lg-12">
-          <img src="images/main.jpg" srcset="images/main-4096px.webp 3x, images/main-2048px.webp 2x, images/main-1024px.webp 1024w, images/main-800px.webp 800w, images/main-640px.webp 640w" alt="Main Image" class="img img-responsive"/>
+          <picture>
+            <source media="(min-width: 2048px)" srcset="images/main-4096px.webp" type="image/webp">
+            <source media="(min-width: 2048px)" srcset="images/main-4096px.webp" type="image/webp">
+            <img src="images/main.jpg" srcset="images/main-4096px.webp 4096w, images/main-2048px.webp 2048w, images/main-1024px.webp 1024w, images/main-800px.webp 800w, images/main-640px.webp 640w" sizes="(min-width: 1200px) 1024px, (min-width: 992px) 940px, (min-width: 768px) 720px, 94vw" alt="Main Image" class="img img-responsive"/>
+          </picture>
         </div>
       </div>
       <div class="row">
